@@ -1,0 +1,66 @@
+//Blog
+
+.wrapper-blog {
+	background-color: lightgrey;
+	margin: 0 auto;
+	width: 100%;
+	
+}
+
+.posts {
+	margin-top: 96px;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	h3 {
+		line-height: 1.125;
+		margin-bottom: 0;
+	}
+}
+
+.ft-image {
+	overflow: hidden;
+	width: 100%;
+}
+
+.wp-post-image {
+	height: auto;
+	width: 100%;
+	
+}
+
+.post-box {
+	background-color: #fff;
+	padding: 48px 10%;
+}
+
+.post-info {
+	margin-bottom: 48px;
+
+	small {
+		display: block;
+	 }
+
+	a {
+		color: $light-blue;
+		text-decoration: none;
+	}
+}
+
+.post-title {
+	color: $red-dark;
+	text-decoration: none;
+}
+
+
+.entry { 
+	img {
+	margin-bottom: 24px;
+	}
+
+	p {
+	margin-bottom: 15px;
+	}
+}

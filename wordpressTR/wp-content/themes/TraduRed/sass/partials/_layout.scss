@@ -1,0 +1,14 @@
+//Layout
+
+.wrapper {
+	@include wrapper-section(0 auto, 1200px, 80%);
+}
+
+.full-wrapper {
+	background-color: #fff;
+	width: 100%;
+}
+
+.min-wrapper {
+	@include wrapper-section(0 auto, 1000px, 60%);
+}

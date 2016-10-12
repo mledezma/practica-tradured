@@ -1,0 +1,16 @@
+//Buttons
+
+.main-button {
+	background-color: #fff;
+	color: $red-dark;
+	cursor: pointer;
+	display: inline-block;
+	font: 24px $second-font;
+	text-decoration: none;
+	@include button-style(5px solid $red-dark, 30px, 5px 15px);
+
+	&:hover {
+		background-color: $red-dark;
+		color: #fff;
+	}
+}

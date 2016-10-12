@@ -1,0 +1,30 @@
+/*
+Theme Name: TraduRed
+Author: CETAV
+Description: Custom theme
+Version: 0.0.1
+Tags: none
+*/
+
+/*
+    1. General
+    2. Layout
+    3. Form
+*/
+
+@import 'partials/variables';
+@import 'partials/typo';
+@import 'partials/mixins';
+@import 'partials/general';
+@import 'partials/layout';
+@import 'partials/helper-classes';
+@import 'partials/forms';
+@import 'partials/header';
+@import 'partials/buttons';
+@import 'partials/boxes';
+@import 'partials/front-page';
+@import 'partials/footer';
+@import 'partials/inner-pages';
+@import 'partials/about-pages';
+@import 'partials/contact';
+@import 'partials/blog';

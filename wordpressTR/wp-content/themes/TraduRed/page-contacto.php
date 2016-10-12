@@ -7,20 +7,20 @@
 
 <?php get_header(); ?>
 
-<div class="fullWrapper">
-	<div class="innerHeader">
+<div class="full-wrapper">
+	<div class="inner-header">
 		<div class="wrapper">
 			<h2><?php the_title(); ?></h2>
 		</div>
 	</div>
 	<div class="wrapper clearfix">
-		<div class="contactBox">
+		<div class="contact-box">
 			<p><?php the_field('contact_txt'); ?></p>
-			<div class="formBox">
+			<div class="form-box">
 				<?php echo do_shortcode( '[contact-form-7 id="74" title="Formulario de contacto"]' ); ?>
 			</div>
 		</div>
-		<div class="contactInfo">
+		<div class="contact-info">
 			<span><strong><?php the_field('cont_name1'); ?></strong></span>
 			<span><?php the_field('cont_info1'); ?></span>
 			<span><strong><?php the_field('cont_name2'); ?></strong></span>

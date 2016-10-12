@@ -1,0 +1,31 @@
+//Forms
+
+.form-box {
+	margin-top: 48px;
+	padding-bottom: 48px;
+
+	br {
+		display: none;
+	}
+}
+
+.form-label {
+	display: inline-block;
+	margin-right: 24px;
+	text-align: right;
+	vertical-align: top;
+	width: 30%;
+}
+
+.form-input {
+	font: 18px $primary-font;
+	margin-bottom: 15px;
+	width: 42%;
+	@include button-style(4px solid rgba(0, 0, 0, .2), 10px, 10px);
+}
+
+.button-box {
+	margin-top: 24px;
+	text-align: center;
+	width: 100%;
+}

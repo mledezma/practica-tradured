@@ -1,0 +1,32 @@
+//Header
+
+.header {
+	background-color: $red;
+	width: 100%;
+}
+
+.logo {
+	position: absolute;
+	z-index: 3;
+}
+
+.nav {
+	float: right;
+
+	li {
+		display: inline-block;
+		list-style: none;
+		margin: 0 0 0 24px;
+	}
+	a {
+		color: #fff;
+		display: inline-block;
+		font: 24px $second-font; 
+		padding: 10px;
+		text-decoration: none;
+	}
+	a:hover {
+		background-color: #fff;
+		color: $red;
+	}
+}

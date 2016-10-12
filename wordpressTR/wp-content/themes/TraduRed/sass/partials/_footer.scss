@@ -1,0 +1,42 @@
+//Footer
+
+#footer {
+	background-color: #000;
+	color: $gray;
+	padding-top: 12px;
+}
+
+.nav-sec {
+	float: left;
+	padding: 24px 0;
+
+	li {
+		border-left: 1px solid $gray;
+		display: inline-block;
+		list-style: none;
+		padding: 0 10px;
+
+		&:first-child {
+			border-left: none;
+		}
+	}
+
+	a {
+		color: $gray;
+		font: 21px $primary-font;
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+.social-media {
+	float: right;
+	padding-top: 15px;
+
+	img {
+		margin-left: 24px;
+	}
+}

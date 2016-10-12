@@ -6,11 +6,11 @@
 
 
 <?php get_header(); ?>
-<div class="wrapperBlog">
+<div class="wrapper-blog">
 
-	<div class="innerHeader"></div>
+	<div class="inner-header"></div>
 
-<div class="minWrapper">
+<div class="min-wrapper">
  <!-- Start the Loop. -->
  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -24,17 +24,17 @@
  		<div class="posts">
  	<?php endif; ?>
 
-	<div class="ftImage">
+	<div class="ft-image">
 	<?php the_post_thumbnail(); ?>
 	</div>
 
-	<div class="postBox">
+	<div class="post-box">
 
  	<!-- Display the Title as a link to the Post's permalink. -->
 
- 	<h3><a class="postTitle" href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+ 	<h3><a class="post-title" href="<?php the_permalink(); ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
 
-	<div class="postInfo">
+	<div class="post-info">
 
 	 	<!-- Display the date (November 16th, 2009 format) and a link to other posts by this posts author. -->
 	 	<small><?php the_time('j \d\e\ F \d\e\ Y \|\ g:i a '); ?> por <?php the_author_posts_link(); ?></small>

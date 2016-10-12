@@ -6,36 +6,36 @@
 
 <?php get_header(); ?>
 
-<div class="fullWrapper">
-	<div class="innerHeader">
+<div class="full-wrapper">
+	<div class="inner-header">
 		<div class="wrapper">
 			<h2><?php the_title(); ?></h2>
 		</div>
 	</div>
-	<div class="minWrapper">
-		<div class="paragraphBox">
+	<div class="min-wrapper">
+		<div class="paragraph-box">
 			<p><?php the_field('full_intro'); ?></p>
 		</div>
 	</div>
-	<div class="fullWidth yellowBox clearfix">
+	<div class="full-width yellow-box clearfix">
 		<div class="wrapper">
-			<div class="floatingBlock">
+			<div class="floating-block">
 				<h3><?php the_field('mision_title'); ?></h3>
 				<p><?php the_field('mision_txt'); ?></p>
 			</div>
-			<div class="floatingBlock">
+			<div class="floating-block">
 				<h3><?php the_field('vision_title'); ?></h3>
 				<p><?php the_field('vision_txt'); ?></p>
 			</div>
 		</div>
 	</div>
-	<div class="minWrapper">
-		<div class="paragraphBox">
-			<div class="objContent">
+	<div class="min-wrapper">
+		<div class="paragraph-box">
+			<div class="obj-content">
 				<h3><?php the_field('obj_main_title'); ?></h3>
 				<p><?php the_field('obj_main_txt'); ?></p>
 			</div>
-			<div class="objContent">
+			<div class="obj-content">
 				<h3><?php the_field('obj_esp_title'); ?></h3>
 				<p><?php the_field('obj_esp_txt'); ?></p>
 			</div>
@@ -55,16 +55,16 @@
 	if ( $team_posts ):
 	?>
 
-	<div class="lastBox fullWidth cyanBox clearfix">
+	<div class="last-box full-width cyan-box clearfix">
 		<div class="wrapper">
-			<h2 class="teamMemberTitle"><?php the_field('team_title'); ?></h2>
+			<h2 class="team-member-title"><?php the_field('team_title'); ?></h2>
 
 			<?php
 			foreach ( $team_posts as $post ):
 			setup_postdata($post);
 
 			?>
-			<div class="memberBox">
+			<div class="member-box">
 
 				<?php
 				$photo = get_field('photo');

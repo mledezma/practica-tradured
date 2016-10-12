@@ -1,0 +1,12 @@
+
+@mixin wrapper-section($margin, $max-width, $width) {
+	margin: $margin;
+	max-width: $max-width;
+	width: $width;
+}
+
+@mixin button-style($border, $border-radius, $padding) {
+	border: $border;
+	border-radius: $border-radius;
+	padding: $padding;
+}

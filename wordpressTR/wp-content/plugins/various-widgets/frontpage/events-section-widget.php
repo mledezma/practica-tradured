@@ -1,6 +1,6 @@
-<div class="colorBox yellowBox pattern clearfix">
+<div class="color-box yellow-box pattern clearfix">
 	<div class="wrapper">
-		<div class="infoBox">
+		<div class="info-box">
 			<h2><?php the_field('event_title'); ?></h2>
 			<p><strong><?php the_field('event_subtitle'); ?></strong></p>
 			<div class="infoEvent">
@@ -13,7 +13,7 @@
 				<h4>Descripción:</h4>
 				<p><?php the_field('event_desc'); ?></p>
 				<p><?php the_field('event_paypal'); ?></p>
-				<div class="buttonBox">
+				<div class="button-box">
 					<?php the_content(); ?>
 				</div>
 			</div>
